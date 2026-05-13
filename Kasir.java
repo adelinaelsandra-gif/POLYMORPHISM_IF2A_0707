@@ -14,5 +14,12 @@ public class Main {
         kasir.tampilKndentitas();
         kasir.prosesBelanja(p1, 3);
     }
+    System.out.println();
+        System.out.println();
+
+        p2.tampilInfo();
+        kasir.tampilKndentitas();
+        kasir.prosesBelanja(p2, 11);
 }
 }
+
