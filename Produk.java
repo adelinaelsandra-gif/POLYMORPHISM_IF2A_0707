@@ -8,8 +8,8 @@ public abstract class Produk {
         this.harga = harga;
         this.stok = stok;
     }
-    public void setStok(int jmlBeli){
-        stok = stok - jmlBeli;
+    public void setStok(int jmlhBeli){
+        stok = stok - jmlhBeli;
     }
     public int getStok(){
         return stok;
@@ -21,8 +21,9 @@ public abstract class Produk {
         System.out.println("Harga: " + harga);
         System.out.println("Stok: " + stok);
     }
-    public double hitungTotalHarga(int jmlBeli) {
-        return jmlBeli * harga;
+    public double hitungTotalHarga(int jmlhBeli) {
+        return jmlhBeli * harga;
     }
+    public abstract double hitungHargaAkhir(int jmlhBeli);
 }
 
