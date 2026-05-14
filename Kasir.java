@@ -5,6 +5,11 @@ public class Kasir {
     }
     public void
      tampilIdentitas(){
+        System.out.println("===TOKO GARUDA===");
+        System.out.println("Nama Kasir: " + namaKasir);
+     }
+
+     public void prosesBelanja(Produk p, int jmlhBeli){
         
      }
 }
