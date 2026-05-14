@@ -10,6 +10,10 @@ public class Kasir {
      }
 
      public void prosesBelanja(Produk p, int jmlhBeli){
+
+        if(p.getStok() < jmlhBeli){
+            System.out.println("Out of stok");
+        }
         
      }
 }
